@@ -24,7 +24,7 @@ class Division:
     def  div_num(self, num1, num2):
         return num1 / num2
 
-### child class to handle user input
+### child class 
 class MainMenu(Addition, Subtraction, Multiplication, Division):
     def calculator_menu(self):
         pass
