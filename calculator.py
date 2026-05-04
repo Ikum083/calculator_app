@@ -25,7 +25,14 @@ class Division:
         return num1 / num2
 
 ### child class to handle user input
+class MainMenu(Addition, Subtraction, Multiplication, Division):
+    def calculator_menu(self):
+        try:
+            first_num = input(int("Enter first number: "))
+            second_num = input(int("Enter second number: "))
+            operation = input("Enter operation to be used(add, subtract, multiply, divide): ").lower()
 #### user input to ask for 2 numbers
+
 #### user input to ask for operation to be used
 #### returns answer
 
