@@ -37,8 +37,8 @@ if __name__ == "__main__":
 while calculating:
 # user input to ask for 2 numbers
     try: 
-        first_num = input(int("Enter first number: "))
-        second_num = input(int("Enter second number: "))
+        first_num = int(input("Enter first number: "))
+        second_num = int(input("Enter second number: "))
     # user input to ask for operation to be used
         operation = input("Enter operation to be used(add, subtract, multiply, divide): ").lower()
     # conditional to return answer depending on operation
@@ -56,3 +56,8 @@ while calculating:
         print(answer)
     except ZeroDivisionError:
         print("ZeroDivisionError")
+
+    # ask user if they want to continue
+    ask_user = input("Continue or exit program?(y/n): ").lower()
+    if ask_user == 'n':
+        calculating = False
