@@ -58,7 +58,6 @@ while calculating:
         print("ZeroDivisionError")
     except ValueError:
         print("Invalid Value")
-
     # ask user if they want to continue
     ask_user = input("Continue or exit program?(y/n): ").lower()
     if ask_user == 'n':
