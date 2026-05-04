@@ -27,13 +27,16 @@ class Division:
 ### child class to handle user input
 class MainMenu(Addition, Subtraction, Multiplication, Division):
     def calculator_menu(self):
-        try:
-            first_num = input(int("Enter first number: "))
-            second_num = input(int("Enter second number: "))
-            operation = input("Enter operation to be used(add, subtract, multiply, divide): ").lower()
-#### user input to ask for 2 numbers
+        pass
 
-#### user input to ask for operation to be used
-#### returns answer
+if __name__ == "__main__":
+    calc_app = MainMenu()
+# user input to ask for 2 numbers
+    first_num = input(int("Enter first number: "))
+    second_num = input(int("Enter second number: "))
+# user input to ask for operation to be used
+    operation = input("Enter operation to be used(add, subtract, multiplication, divide): ").lower()
+# conditional to return answer depending on operation
+# returns answer
 
 ### call child class
