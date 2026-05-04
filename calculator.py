@@ -1,18 +1,28 @@
 # calculator app using inheritance
-
 ## create parent classes
-
 ### parent class for addition
+class Addition:
 #### main method ask for 2 arguments and adds them
+    def add_num(self, num1, num2):
+        return num1 + num2
 
 ### parent class for subtraction
+class Subtraction:
 #### main method ask for 2 arguments and subtracts them
+    def sub_num(self, num1, num2):
+        return num1 - num2
 
 ### parent class  for multiplication
+class Multiplication:
 #### main method ask for 2 arguments and multiplies them
+    def multi_num(self, num1, num2):
+        return num1 * num2
 
 ### parent class for division
+class Division:
 #### main method ask for 2 arguments and divides them
+    def  div_num(self, num1, num2):
+        return num1 / num2
 
 ### child class to handle user input
 #### user input to ask for 2 numbers
